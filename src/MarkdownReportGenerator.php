@@ -76,7 +76,7 @@ class MarkdownReportGenerator implements AfterAnalysisInterface
                 foreach ($issues as $issue) {
                     $md .= "- [". $issue->type ."](". $issue->link ."): ". $issue->message . "\\\n"
                         . "`". trim($issue->snippet) ."`\\\n"
-                        ." <sup>at _[". $issue->file_name . "](". $prefix . $issue->file_name . "#L" . $issue->line_from . ") line " . $issue->line_from . "_</sup>\n";
+                        ." <sup>at _[". $issue->file_name . "](". $prefix . $issue->file_name . ($branch ? "#L" . $issue->line_from : "") . ") line " . $issue->line_from . "_</sup>\n";
                 }
             }
 
