@@ -22,6 +22,7 @@ final class Plugin implements PluginEntryPointInterface
             }
         }
 
+        require dirname(__FILE__) . '/MarkdownReportGenerator.php';
         $registration->registerHooksFromClass(MarkdownReportGenerator::class);
     }
 }
