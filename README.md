@@ -1,5 +1,10 @@
 # Psalm Markdown Report
 
+[![Release](https://github.com/zolex/psalm-markdown-report/workflows/Release/badge.svg)](https://github.com/zolex/psalm-markdown-report/actions/workflows/release.yaml)
+[![Version](https://img.shields.io/packagist/v/zolex/psalm-markdown-report)](https://packagist.org/packages/zolex/psalm-markdown-report)
+[![License](https://img.shields.io/packagist/l/zolex/psalm-markdown-report)](./LICENSE)
+[![Downloads](https://img.shields.io/packagist/dt/zolex/psalm-markdown-report)](https://packagist.org/packages/zolex/psalm-markdown-report)
+
 Github Markdown report plugin for [Psalm](https://github.com/vimeo/psalm) >= 6.0
 
 ## Installation
