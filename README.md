@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/packagist/l/zolex/psalm-markdown-report)](./LICENSE)
 [![Downloads](https://img.shields.io/packagist/dt/zolex/psalm-markdown-report)](https://packagist.org/packages/zolex/psalm-markdown-report)
 
-Github Markdown report plugin for [Psalm](https://github.com/vimeo/psalm) 5 and 6
+[Psalm](https://github.com/vimeo/psalm) 5 and 6 plugin to generate Markdown reports.
 
 ## Installation
 
